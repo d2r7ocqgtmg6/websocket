@@ -8,6 +8,10 @@ Gorilla WebSocket is a [Go](http://golang.org/) implementation of the
 
 > **Personal fork note:** I'm using this in my own projects for learning purposes.
 > Main changes from upstream may include tweaks to defaults or added comments.
+>
+> **Notable personal changes:**
+> - Increased default read buffer size from 4096 to 8192 bytes for better throughput
+>   in my local chat application experiments.
 
 ### Documentation
 
